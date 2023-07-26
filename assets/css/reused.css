@@ -57,3 +57,7 @@
 }
 
 .btn-link:is(:hover, :focus){color: var(--orange);}
+
+.has-scrollbar ::-webkit-scrollbar { height: 6px; }
+
+.has-scrollbar ::-webkit-scrollbar-button { width: 40px; }
